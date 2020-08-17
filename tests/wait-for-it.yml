@@ -1,0 +1,8 @@
+---
+
+command:
+    wait-for-it --help:
+        exit-status: 1
+        stderr:
+            - /.*wait-for-it host:port.*/
+
